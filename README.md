@@ -61,6 +61,10 @@ Use the “2D Goal Pose” tool
 Click a location in the world to set the goal
 Robot automatically plans and moves toward the goal
 
+## Demonstration
+
+https://github.com/user-attachments/assets/f1974a44-1c9d-4578-bf59-0eca4632e59e
+
 ## File Structure
 
 ```graphql
