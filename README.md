@@ -63,7 +63,7 @@ Robot automatically plans and moves toward the goal
 
 ## File Structure
 
-graphql
+```graphql
 PRM-Nav/
 ├── projectz/
 │   ├── navigator.py        # Main PRM navigator ROS2 node
@@ -73,6 +73,7 @@ PRM-Nav/
 │   └── navigator_launch.py # Launch file with configurable obstacles
 ├── sim1.py                 # Robot simulation node
 └── README.md               # Project documentation
+```
 
 ## Results
 Successfully navigates environments with 4, 5, and 6 obstacles
