@@ -3,9 +3,6 @@
 ## Overview
 **PRM-Nav** implements a **Probabilistic Roadmap (PRM)** navigation framework for a differential-drive robot in a planar environment with circular obstacles. The system receives goals via `/goal_pose` and executes smooth, collision-free trajectories while visualizing paths and obstacles in **RViz**.
 
-This project was developed for **CSCE 752: Advanced Robotics**.
-
----
 
 ## Features
 - PRM-based path planning with random sampling and k-nearest neighbor connections
@@ -16,8 +13,6 @@ This project was developed for **CSCE 752: Advanced Robotics**.
 - Simulation with `sim1` node for robot motion and RViz visualization
 - Supports multiple environments with configurable obstacles
 
----
-
 ## Installation
 
 1. **Clone the repository**:
@@ -25,6 +20,7 @@ This project was developed for **CSCE 752: Advanced Robotics**.
 ```bash
 git clone https://github.com/devgoti16/PRM-Nav.git
 cd PRM-Nav
+```bash
 
 2. Install dependencies:
 
