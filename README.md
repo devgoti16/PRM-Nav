@@ -13,33 +13,14 @@
 - Simulation with `sim1` node for robot motion and RViz visualization
 - Supports multiple environments with configurable obstacles
 
-## Installation
-
-1. **Clone the repository**:
-
-```bash
-git clone https://github.com/devgoti16/PRM-Nav.git
-cd PRM-Nav
-```
-
-2. Install dependencies:
-
-```bash
-pip install numpy
-
-3. Ensure your ROS2 workspace is sourced:
-
-bash
-
-source /opt/ros/<ros2-distro>/setup.bash
 
 ## Usage
 
 1. Launch the Simulator
 
-bash
-Copy code
+```bash
 ros2 run sim sim1
+```
 
 Starts the simulation node
 Robot pose published on /pose
@@ -47,8 +28,9 @@ Past robot positions visualized via /sim_markers
 
 2. Launch RViz2
 
-bash
+```bash
 rviz2
+```
 
 Add the following displays:
 
@@ -61,8 +43,9 @@ Set the fixed frame to world.
 
 3. Launch the PRM Navigator Node
 
-bash
+```bash
 ros2 launch projectz navigator_launch.py obstacles:="0.0,2.0,0.8; -2.0,0.0,0.5; 2.0,-1.5,0.65; -1.5,-2.5,0.7"
+```
 
 Configure different environments by changing the obstacle string
 Node subscribes to:
@@ -78,7 +61,7 @@ Use the “2D Goal Pose” tool
 Click a location in the world to set the goal
 Robot automatically plans and moves toward the goal
 
-File Structure
+## File Structure
 
 bash
 graphql
@@ -92,7 +75,7 @@ PRM-Nav/
 ├── sim1.py                 # Robot simulation node
 └── README.md               # Project documentation
 
-Results
+## Results
 Successfully navigates environments with 4, 5, and 6 obstacles
 
 Handles straight-line, multi-turn, and unreachable goals
