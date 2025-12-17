@@ -1,4 +1,7 @@
-oadmap (PRM)** navigation framework for a differential-drive robot in a planar environment with circular obstacles. The system receives goals via `/goal_pose` and executes smooth, collision-free trajectories while visualizing paths and obstacles in **RViz**.
+# PRM-Nav (Project Z)
+
+## Overview
+**PRM-Nav** implements a **Probabilistic Roadmap (PRM)** navigation framework for a differential-drive robot in a planar environment with circular obstacles. The system receives goals via `/goal_pose` and executes smooth, collision-free trajectories while visualizing paths and obstacles in **RViz**.
 
 This project was developed for **CSCE 752: Advanced Robotics**.
 
@@ -25,7 +28,7 @@ cd PRM-Nav
 
 2. Install dependencies:
 
-bash
+```bash
 pip install numpy
 
 3. Ensure your ROS2 workspace is sourced:
