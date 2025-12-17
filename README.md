@@ -1,4 +1,4 @@
-# PRM-Nav (Project Z)
+# PRM-Nav
 
 ## Overview
 **PRM-Nav** implements a **Probabilistic Roadmap (PRM)** navigation framework for a differential-drive robot in a planar environment with circular obstacles. The system receives goals via `/goal_pose` and executes smooth, collision-free trajectories while visualizing paths and obstacles in **RViz**.
