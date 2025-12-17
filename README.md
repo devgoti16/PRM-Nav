@@ -63,7 +63,6 @@ Robot automatically plans and moves toward the goal
 
 ## File Structure
 
-bash
 graphql
 PRM-Nav/
 ├── projectz/
