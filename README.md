@@ -20,7 +20,7 @@
 ```bash
 git clone https://github.com/devgoti16/PRM-Nav.git
 cd PRM-Nav
-```bash
+```
 
 2. Install dependencies:
 
