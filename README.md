@@ -80,10 +80,7 @@ PRM-Nav/
 ```
 
 ## Results
-Successfully navigates environments with 4, 5, and 6 obstacles
-
-Handles straight-line, multi-turn, and unreachable goals
-
-Maintains safe clearance and smooth trajectories
-
-Path simplification and smoothing keeps paths near-optimal while avoiding collisions
+- Successfully navigates environments with 4, 5, and 6 obstacles
+- Handles straight-line, multi-turn, and unreachable goals
+- Maintains safe clearance and smooth trajectories
+- Path simplification and smoothing keeps paths near-optimal while avoiding collisions
